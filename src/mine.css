@@ -1,0 +1,196 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #61dafb;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #21a1f1;
+}
+
+.container {
+    width: 90%;
+    max-width: 1800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Стили для Header */
+.header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    width: 85%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-title {
+    color: #49c1e0;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-nav {
+    margin-bottom: 15px;
+}
+
+.header-link {
+    color: #7a6ded;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.header-link:hover {
+    color: #49c1e0;
+}
+
+.header-contact p {
+    color: #f2f2f2;
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+
+/* Стили для Content */
+main {
+    margin: 40px 0;
+    width: 100%;
+}
+
+main h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #61dafb;
+}
+
+main p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #aaaaaa;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.book-card {
+    background-color: #333842;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.book-card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.book-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+.book-card button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #20232a;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-card button:hover {
+    background-color: #21a1f1;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Стили для Footer */
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #20232a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #61dafb;
+    margin-bottom: 20px;
+}
+
+footer .social-media {
+    display: flex;
+    gap: 20px;
+}
+
+footer .social-media a {
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+footer .social-media a:hover {
+    color: #21a1f1;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+    max-width: 150px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
